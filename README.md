@@ -9,6 +9,8 @@ The executable is located in the build folder
 
 Our game is a simple arcade shooter where your goal is to survive as long as possible against the enemies spread around the map. When F9 is pressed you enter edit mode, with O and P you can switch between objects to place in the world and R is used to rotate them, pressing ENTER confirms the placement of the object and using COMMA you can undo and with PERIOD you can redo. 
 
+^^^^^^^^^^^^^^^^^^^
+Building on what Sam, Joseph and I had from before. I attempted to add Object Pooling into the enemies spawning.
 
 ![Pic](https://user-images.githubusercontent.com/56273398/138728696-b6bd979c-5c3f-487c-897d-6a1412cca7bc.PNG)
 
@@ -23,22 +25,18 @@ Youtube link
 
 https://www.youtube.com/watch?v=71NtQh8DUKo
 
-Sam Canonaco - 100742837
-
 Fred Lai - 100748388
 
-Joseph Carrillo - 100746949
 
 
 The UML was created with UMLet
 
-![unknown](https://user-images.githubusercontent.com/56273398/138784140-644cb956-dd9b-47be-852a-afb45ec7c9de.png)
+![unknown](https://cdn.discordapp.com/attachments/729028421937791036/906004074120499210/unknown.png)
 
 
 Third party assistance
 
-https://stackoverflow.com/questions/44464552/how-to-properly-marshal-strings-from-unity-to-c-c
+https://www.youtube.com/watch?v=tdSmKaJvCoA
 
-https://docs.unity3d.com/ScriptReference/Time-deltaTime.html
+https://www.youtube.com/watch?v=wGgeCki1vC8
 
-https://answers.unity.com/questions/1331151/c-need-help-making-an-enemy-spawn-timer.html
