@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -3452849960011939174}
   - component: {fileID: 5497028472538585411}
   - component: {fileID: 321729097479112862}
+  - component: {fileID: -7587717230419363566}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -54,7 +55,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -137,3 +137,15 @@ MonoBehaviour:
   followDist: 20
   health: 4
   waitOnTouch: 1
+--- !u!114 &-7587717230419363566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2477456727860541783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c710fe1be0e03c8488b8dad8393ae72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

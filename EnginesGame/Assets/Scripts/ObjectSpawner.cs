@@ -13,8 +13,12 @@ public class ObjectSpawner : MonoBehaviour
     //changes how long it takes between each spawn
     public float spawnTimer = 5.0f;
     private float timer;
+    private ObjectPool objectPool;
 
-    private bool pause;
+    private void Start()
+    {
+        objectPool = FindObjectOfType<ObjectPool>();
+    }
 
     void Update()
     {
@@ -22,14 +26,13 @@ public class ObjectSpawner : MonoBehaviour
         {
             // internal counter
             timer += Time.deltaTime;
-            if (timer > spawnTimer)
+            if (timer >= spawnTimer)
             {
+                GameObject newObject = objectPool.GetEnemies();
+                newObject.transform.position = this.transform.position;
+
                 //Resets timer once it hits the spawnTimer
-                timer = 0.0f;
-
-
-                //Spawns object once timer reaches spawnTimer
-                GameObject newObject = (GameObject)Instantiate(entityHolder, transform.position, Quaternion.identity) as GameObject;
+                timer = 0f;
             }
         }
     }
