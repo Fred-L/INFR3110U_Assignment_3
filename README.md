@@ -23,7 +23,7 @@ Building on what Sam, Joseph and I had from before. I attempted to add Object Po
 
 Youtube link
 
-https://www.youtube.com/watch?v=71NtQh8DUKo
+https://youtu.be/bL6LLDp_fec
 
 Fred Lai - 100748388
 
